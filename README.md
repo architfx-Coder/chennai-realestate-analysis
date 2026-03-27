@@ -1,5 +1,5 @@
 # chennai-realestate-analysis
-# 🏠 Chennai Real Estate Price Analysis
+#  Chennai Real Estate Price Analysis
 
 > **Uncovering what actually drives property prices across Chennai's micro-markets — using data, not guesswork.**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Chennai's real estate market is highly fragmented — prices vary dramatically across localities, property types, and proximity to infrastructure. Buyers overpay, sellers under-price, and investors lack objective data to evaluate opportunities.
 
@@ -19,7 +19,7 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 1. Perform a structured Exploratory Data Analysis (EDA) of Chennai's residential property market
 2. Identify the top drivers of price per square foot across 15+ micro-markets
@@ -28,7 +28,7 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 
 ---
 
-## 📦 Dataset Description
+##  Dataset Description
 
 | Attribute | Details |
 |-----------|---------|
@@ -49,7 +49,7 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Step 1 — Data Collection & Cleaning
 - Collected 7,000+ listings; dropped duplicates and listings with >30% missing values
@@ -80,7 +80,7 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Category | Tools |
 |----------|-------|
@@ -94,7 +94,7 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. **Location is king — but it's nuanced.** OMR's price/sqft varies by up to 40% depending on proximity to IT corridors. Properties within 2km of major IT hubs command a significant premium.
 
@@ -108,20 +108,20 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 
 ---
 
-## 📊 Visualisations Included
+##  Visualisations Included
 
-- 📍 **Choropleth Heatmap** — Chennai locality-level price/sqft
-- 📦 **Box Plots** — Price distribution by BHK configuration
-- 🔥 **Correlation Heatmap** — Feature relationships
-- 📈 **Feature Importance Chart** — XGBoost top 10 drivers
-- 🗺️ **Interactive Map** — Folium overlay with price bands
-- 📊 **Scatter Plot** — Price vs. Distance to IT hub with trendline
+-  **Choropleth Heatmap** — Chennai locality-level price/sqft
+-  **Box Plots** — Price distribution by BHK configuration
+-  **Correlation Heatmap** — Feature relationships
+-  **Feature Importance Chart** — XGBoost top 10 drivers
+-  **Interactive Map** — Folium overlay with price bands
+-  **Scatter Plot** — Price vs. Distance to IT hub with trendline
 
 > 📁 All visualisations available in `/visuals/` folder
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 | Stakeholder | Value Delivered |
 |-------------|----------------|
@@ -130,7 +130,7 @@ Chennai's real estate market is highly fragmented — prices vary dramatically a
 | **Property Investor** | Identify undervalued pockets (price < model prediction) for arbitrage |
 | **Urban Planner** | Map infrastructure impact on residential values |
 
-> 💰 Equivalent commercial insight: Real estate advisory firms charge ₹1.5–2.5L for market reports of this depth.
+>  Equivalent commercial insight: Real estate advisory firms charge ₹1.5–2.5L for market reports of this depth.
 
 ---
 
@@ -168,7 +168,7 @@ chennai-real-estate-analysis/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # Clone the repository
@@ -184,7 +184,7 @@ jupyter notebook notebooks/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] **Live Data Pipeline** — Scrape MagicBricks/99acres weekly; automate data refresh
 - [ ] **Price Trend Forecasting** — Add time-series modelling (ARIMA/Prophet) for 6-month price outlook
